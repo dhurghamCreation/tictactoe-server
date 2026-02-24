@@ -1,4 +1,4 @@
-const stripe = require('stripe')('sk_test_51T3kFEAZ3Hc8WY2NU5Q7IltGUCyH4ZBq7o1kk2eQkN4WFybi7zYZLfPPUzLi1JdsAYpvsaVshhwPsRch8MV3Jg4F000B72pjVQ');
+const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 const express = require('express');
 const http = require('http');
 const { Server } = require('socket.io');
