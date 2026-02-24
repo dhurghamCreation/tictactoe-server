@@ -23,7 +23,7 @@ const io = new Server(server, {
   }
 });
 
-const PORT = 10000;
+const PORT = process.env.PORT || 10000;
 app.get("/", (req, res) => {
   res.send("🚀 PAYMENT SERVER IS LIVE");
 });
