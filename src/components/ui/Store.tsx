@@ -70,7 +70,7 @@ export default function Store({ onClose, setCoins, setGems, setEquippedSkin, set
 
         try {
             
-            const response = await fetch("http://localhost:10000/create-payment-intent", {
+            const response = await fetch("https://tictactoe-server-1-2tzt.onrender.com", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ items: [{ id: selectedItem.id }] })
