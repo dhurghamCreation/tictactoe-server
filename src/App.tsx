@@ -22,7 +22,8 @@ import DailyRewards from "./components/ui/DailyRewards";
 import MegaBox from "./components/ui/MegaBox";
 
 
-const socket = io("localhost:10000", { 
+const socket = io("https://tictactoe-server-1-2tzt.onrender.com"
+, { 
   transports: ["websocket"],
   reconnection: true,
   reconnectionDelay: 500,    
