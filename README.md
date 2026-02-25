@@ -21,4 +21,4 @@ npm run dev
 npm run build
 ```
 
-This repo includes TypeScript sources and one small JavaScript utility to demonstrate mixed JS/TS usage.
+This repo includes TypeScript sources and one small JavaScript utility to demonstrate mixed JS/TS usage.Hope you enjoy it!
